@@ -1,0 +1,70 @@
+.formSection{
+    background-color: #eee9e2;
+    display: flex;
+    width: 100%;
+}
+
+.formEle{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5% 5%;
+}
+ 
+.formEle label{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.formEle input{
+    margin-bottom: 20px;
+    min-height: 40px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    border: 0;
+}
+
+.formEle textarea{
+    margin-bottom: 20px;
+    min-height: 80px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    border: 0;
+    resize: vertical;
+}
+
+.formEle .formSubmit{
+    background-color: #181e21;
+    color: white;
+    height: 50px;
+    padding: 0 26px;
+    font-size: 20px;
+    width: 150px;
+}
+.bookSecondSec {
+    color: #181e21;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    min-height: 300px;
+    align-items: center;
+}
+
+.bookSecondSec .bookSecondSecContent {
+    margin-left: 10%;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 60%;
+}
+@media only screen and (max-width: 800px) {
+    
+    .formEle{
+        width: 80%;
+    }
+    .bookSecondSec .bookSecondSecContent {
+        width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+
+.menuFirstsec {
+    background-image: url(../img/final2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-direction: column; */
+    font-size: 17px;
+    color: black;
+    min-height: 400px;
+    margin-top: 100px;
+    justify-content: end;
+}
+
+
+.menuFirstsec .itsMenu {
+    align-self: center;
+    margin-right: 28%;
+}
+
+.menuFirstsec .itsMenu .itsMenuTxt{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menuCon{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5% 0 5% 10%;
+}
+.menuFirstsec .itsMenu .itsMenuTxt strong{
+    font-size: 40px;
+}
+@media only screen and (max-width: 900px) {
+    
+    .menuFirstsec .itsMenu .itsMenuTxt strong{
+        font-size: 30px !important;
+    }
+   
+}
+@media only screen and (max-width: 450px) {
+    
+    .menuFirstsec .itsMenu .itsMenuTxt strong{
+        font-size: 23px !important;
+    }
+    .menuFirstsec{
+        min-height: 350px !important;
+    }
+    .menuFirstsec .itsMenu {
+        margin-right: 15% !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .menuFirstsec .itsMenu {
+        margin-right: 18% !important;
+    }
+}

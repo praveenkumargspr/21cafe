@@ -36,7 +36,7 @@
     display: flex;
     /* flex-direction: column; */
     font-size: 17px;
-    color: #181e21;
+    color: #121314;
     min-height: 640px;
     margin-top: 100px;
     justify-content: space-around;
@@ -99,10 +99,10 @@
     margin: 5% 0 5% 10%;
 }
 
-.thirdSec .menuHead{
+/* .thirdSec .menuHead{
     font-size: 31px;
-}
-.thirdSec .thirdSecContent{
+} */
+/* .thirdSec .thirdSecContent{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -120,7 +120,7 @@
 }
 .thirdSec .thirdSecContent .menuNameAndRate .menuRate{
     float: right;
-}
+} */
 .thirdSec .menuItemBtn{
     background-color: #181e21;
     color: white;
@@ -128,13 +128,13 @@
     padding: 0 26px;
     font-size: 20px;
 }
-.thirdSec .thirdSecContent ul{
+/* .thirdSec .thirdSecContent ul{
     list-style: none;
 }
 .thirdSec .thirdSecContent li{
     margin-bottom: 20px;
     min-height: 60px;
-}
+} */
 .fourthSec {
     background-image: url(./img/coffee.png);
     background-repeat: no-repeat;
@@ -188,53 +188,7 @@
     padding: 0 26px;
     font-size: 20px;
 }
-.sixSec {
-    background-color: #eee9e2;
-    display: flex;
-    flex-direction: column;
-    color: #181e21;
-    min-height: 300px;
-    
-}
-.sixSec .sixSecContent{
-    margin-left: 10%;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-    font-family: "sans-serif";
-    width: 70%;
-}
-.sixSec .sixSecContent1 {
-    font-size: 35px;
-}
-.sixSec .sixSecContent2 {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-.sixSec .sixSecContent4 {
-    font-size: 20px;
-}
-.sixSec .sixSecContent4 span {
-    font-size: 18px;
-}
-.sixSec .sixSecContent6 {
-    font-size: 20px;
-}
-.sixSec .sixSecContent6 span {
-    font-size: 18px;
-}
-.sixSec .sixSecContent_2{
-    margin-left: 25%;
-    margin-top: 8.5%;
-    position: relative;
-}
-.sixSec .sixSecContenticon{
-    display: flex;
-    margin-top: 50%;
-}
-.sixSec .sixSecContenticon span{
-    margin-right: 25px;
-}
+
 @media only screen and (max-width: 900px) {
     
     .firstsec .firstSecContent .cafeName strong{
@@ -251,6 +205,11 @@
     }
 }
 @media only screen and (max-width: 500px) {
+
+    .firstsec{
+        /* color: #171616; */
+        color: #121314;
+    }
     
     .firstsec .firstSecContent .cafeName strong{
         font-size: 17vw;

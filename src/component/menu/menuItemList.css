@@ -1,0 +1,37 @@
+.menuListHead{
+    font-size: 31px;
+}
+.menuListContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.menuListContent .leftContent{
+    width: 40%;
+}
+.menuListContent .rigthContent{
+    width: 40%;
+    margin-left: 5%;
+}
+.menuListContent .Content{
+    width: 80%;
+}
+.menuListContent .menuNameAndRate{
+    flex-direction: row;
+}
+.menuListContent .menuNameAndRate .menuRate{
+    float: right;
+    font-weight: 500;
+}
+.menuListContent ul{
+    list-style: none;
+}
+.menuListContent li{
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+.menuListContent .leftContent li, .menuListContent .rigthContent li{
+    min-height: 90px !important;
+}

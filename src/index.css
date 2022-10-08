@@ -24,3 +24,59 @@ code {
   min-height: 100px;
     align-items: center;
 }
+
+.footerSec {
+  background-color: #eee9e2;
+  display: flex;
+  flex-direction: column;
+  color: #181e21;
+  min-height: 300px;
+  
+}
+.footerSec .footerSecContent{
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  font-family: "sans-serif";
+  width: 70%;
+}
+.footerSec .footerSecContent1 {
+  font-size: 35px;
+}
+.footerSec .footerSecContent2, .footerSec .footerSecContent7  {
+  font-size: 20px;
+  /* margin-bottom: 0; */
+}
+.footerSec .footerSecContent4 {
+  font-size: 20px;
+}
+.footerSec .footerSecContent4 span {
+  font-size: 18px;
+}
+.footerSec .footerSecContent6 {
+  font-size: 20px;
+}
+.footerSec .footerSecContent6 span {
+  font-size: 18px;
+}
+.footerSec .footerSecContent_2{
+  margin-left: 25%;
+  margin-top: 8.5%;
+  position: relative;
+}
+.footerSec .footerSecContenticon{
+  display: flex;
+}
+.footerSec .footerSecContenticon span{
+  margin-right: 25px;
+}
+.mt30{
+  margin-top: 30%;
+}
+.mt50{
+  margin-top: 50%;
+}
+.mt100{
+  margin-top: 100px;
+}
