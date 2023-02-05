@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react';
 import './menuItemList.css'
 import axios from 'axios'
+import listData from './listData'
 export default function MenuItemList(cat) {
 
     const [menuList, setMenuList] = useState([]);
     const [isMobile, setIsMobile] = useState(false);
     useEffect(() => {
-        axios.get('http://localhost:3005/menu').then((response) => {
-            console.log(response.data)
-            setMenuList(response.data)
-        })
+        // axios.get('http://localhost:3005/menu').then((response) => {
+        //     console.log(response.data)
+        //     setMenuList(response.data)
+        // })
+        setMenuList(listData)
     }, [setMenuList])
 
 

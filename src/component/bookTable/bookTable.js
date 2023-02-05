@@ -15,10 +15,11 @@ export default function BookTable() {
     const [submitFlag, setsubmitFlag] = useState(false)
 
     const bookTableSubmit = () => {
-        axios.post('http://localhost:3005/bookatable',{name:name,lastname:lastname,membercount:membercount,phonenumber:phonenumber,email:email,message:message}).then(() => {
-            alert("success")
-            setsubmitFlag(true)
-        })
+        // axios.post('http://localhost:3005/bookatable',{name:name,lastname:lastname,membercount:membercount,phonenumber:phonenumber,email:email,message:message}).then(() => {
+        //     alert("success")
+        //     setsubmitFlag(true)
+        // })
+        alert("Your submit is success, our team will reach you")
     }
     
     return (
