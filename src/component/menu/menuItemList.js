@@ -58,7 +58,7 @@ export default function MenuItemList(cat) {
                                         return <li key={item.Items}>
                                             <div className="menuNameAndRate">
                                                 <span className='menuName'><strong>{item.Items}</strong></span>
-                                                <span className='menuRate'>${item.ItemPrice}</span>
+                                                <span className='menuRate'>₹{item.ItemPrice}</span>
                                             </div>
                                             <div className="menuDiscription">
                                                 {item.ItemDescription}
@@ -74,7 +74,7 @@ export default function MenuItemList(cat) {
                                         return <li key={item.Items}>
                                             <div className="menuNameAndRate">
                                                 <span className='menuName'><strong>{item.Items}</strong></span>
-                                                <span className='menuRate'>${item.ItemPrice}</span>
+                                                <span className='menuRate'>₹{item.ItemPrice}</span>
                                             </div>
                                             <div className="menuDiscription">
                                                 {item.ItemDescription}
@@ -92,7 +92,7 @@ export default function MenuItemList(cat) {
                                     return <li key={item.Items}>
                                         <div className="menuNameAndRate">
                                             <span className='menuName'><strong>{item.Items}</strong></span>
-                                            <span className='menuRate'>${item.ItemPrice}</span>
+                                            <span className='menuRate'>₹{item.ItemPrice}</span>
                                         </div>
                                         <div className="menuDiscription">
                                             {item.ItemDescription}
